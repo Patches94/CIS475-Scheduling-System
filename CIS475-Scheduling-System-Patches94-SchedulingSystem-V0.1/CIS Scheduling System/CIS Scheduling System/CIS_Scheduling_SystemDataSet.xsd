@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CIS_Scheduling_SystemDataSet" targetNamespace="http://tempuri.org/CIS_Scheduling_SystemDataSet.xsd" xmlns:mstns="http://tempuri.org/CIS_Scheduling_SystemDataSet.xsd" xmlns="http://tempuri.org/CIS_Scheduling_SystemDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="CIS_Scheduling_SystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CIS_Scheduling_SystemConnectionString (MySettings)" PropertyReference="ApplicationSettings.CIS_Scheduling_System.My.MySettings.GlobalReference.Default.CIS_Scheduling_SystemConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Classes Needed for SemesterTableAdapter" GeneratorDataComponentClassName="Classes_Needed_for_SemesterTableAdapter" Name="Classes Needed for Semester" UserDataComponentName="Classes Needed for SemesterTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Classes Needed for Semester" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `Classes Needed for Semester` (`Timestamp`, `School year`, `CIS211 - Day (3 hours)`, `CIS211 - Night (3 hours)`, `CIS211 - Day (3 hours)1`, `CIS211 - Night (3 hours)1`, `CIS239 - Day (3 hours)`, `CIS239 - Night (3 hours)`, `CIS265 - Day (3 hours)`, `CIS265 - Night (3 hours)`, `CIS334 - Day (3 hours)`, `CIS334 - Night (3 hours)`, `CIS350 - Day (3 hours)`, `CIS350 - Night (3 hours)`, `CIS377 - Day (3 hours)`, `CIS377 - Night (3 hours)`, `CIS379 - Day (3 hours)`, `CIS379 - Night (3 hours)`, `CIS397 - Day (3 hours)`, `CIS397 - Night (3 hours)`, `CIS426 - Day (3 hours)`, `CIS426 - Night (3 hours)`, `CIS435 - Day (3 hours)`, `CIS435 - Night (3 hours)`, `CIS436 - Day (3 hours)`, `CIS436 - Night (3 hours)`, `CIS440 - Day (3 hours)`, `CIS440 - Night (3 hours)`, `CIS440 - Day (3 hours)1`, `CIS458 - Night (3 hours)`, `CIS475 - Day (3 hours)`, `CIS475 - Night (3 hours)`, `CIS475 - Day (3 hours)1`, `CIS479 - Night (3 hours)`, `COSC175 - Day (4 hours)`, `COSC175 - Night (4 hours)`, `COSC236 - Day (5 hours)`, `COSC236 - Night (5 hours)`, `COSC237 - Day (5 hours)`, `COSC237 - Night (5 hours)`, `COSC290 - Day (4 hours)`, `COSC290 - Night (4 hours)`, `COSC310 - Day (3 hours)`, `COSC310 - Night (3 hours)`, `COSC314 - Day (3 hours)`, `COSC314 - Night (3 hours)`, `COSC336 - Day (4 hours)`, `COSC336 - Night (4 hours)`, `COSC350 - Day (3 hours)`, `COSC350 - Night (3 hours)`, `COSC397 - Day (3 hours)`, `COSC397 - Night (3 hours)`, `COSC412 - Day (3 hours)`, `COSC412 - Night (3 hours)`, `COSC418 - Day (3 hours)`, `COSC418 - Night (3 hours)`, `COSC431 - Day (3 hours)`, `COSC431 - Night (3 hours)`, `COSC432 - Day (3 hours)`, `COSC432 - Night (3 hours)`, `COSC436 - Day (3 hours)`, `COSC436 - Night (3 hours)`, `COSC439 - Day (3 hours)`, `COSC439 - Night (3 hours)`, `COSC440 - Day (3 hours)`, `COSC440 - Night (3 hours)`, `COSC450 - Day (3 hours)`, `COSC450 - Night (3 hours)`, `COSC455 - Day (3 hours)`, `COSC455 - Night (3 hours)`, `COSC457 - Day (3 hours)`, `COSC457 - Night (3 hours)`, `COSC458 - Day (3 hours)`, `COSC458 - Night (3 hours)`, `COSC465 - Day (3 hours)`, `COSC465 - Night (3 hours)`, `COSC483 - Day (3 hours)`, `COSC483 - Night (3 hours)`, `COSC484 - Day (3 hours)`, `COSC484 - Night (3 hours)`, `COSC501 - Day (6 hours)`, `COSC501 - Night (6 hours)`, `COSC502 - Day (3 hours)`, `COSC502 - Night (3 hours)`, `COSC519 - Day (3 hours)`, `COSC519 - Night (3 hours)`, `COSC578 - Day (3 hours)`, `COSC578 - Night (3 hours)`, `COSC600 - Day (3 hours)`, `COSC600 - Night (3 hours)`, `COSC601 - Day (3 hours)`, `COSC601 - Night (3 hours)`, `COSC602 - Day (3 hours)`, `COSC602 - Night (3 hours)`, `COSC609 - Day (3 hours)`, `COSC609 - Night (3 hours)`, `COSC612 - Day (3 hours)`, `COSC612 - Night (3 hours)`, `COSC617 - Day (3 hours)`, `COSC617 - Night (3 hours)`, `COSC647 - Day (3 hours)`, `COSC647 - Night (3 hours)`, `COSC650 - Day (3 hours)`, `COSC650 - Night (3 hours)`, `COSC732 - Day (3 hours)`, `COSC732 - Night (3 hours)`, `COSC735 - Day (3 hours)`, `COSC735 - Night (3 hours)`, `COSC757 - Day (3 hours)`, `COSC757 - Night (3 hours)`, `COSC760 - Day (3 hours)`, `COSC760 - Night (3 hours)`, `ITEC217 - Day (3 hours)`, `ITEC217 - Night (3 hours)`, `ITEC231 - Day (3 hours)`, `ITEC231 - Night (3 hours)`, `ITEC250 - Day (3 hours)`, `ITEC250 - Night (3 hours)`, `ITEC274 - Day (3 hours)`, `ITEC274 - Night (3 hours)`, `ITEC315 - Day (3 hours)`, `ITEC315 - Night (3 hours)`, `ITEC325 - Day (3 hours)`, `ITEC325 - Night (3 hours)`, `ITEC336 - Day (3 hours)`, `ITEC336 - Night (3 hours)`, `ITEC345 - Day (3 hours)`, `ITEC345 - Night (3 hours)`, `ITEC397 - Day (3 hours)`, `ITEC397 - Night (3 hours)`, `ITEC411 - Day (3 hours)`, `ITEC411 - Night (3 hours)`, `ITEC423 - Day (3 hours)`, `ITEC423 - Night (3 hours)`, `ITEC423 - Day (3 hours)1`, `ITEC423 - Night (3 hours)1`, `ITEC427 - Day (3 hours)`, `ITEC427 - Night (3 hours)`, `ITEC437 - Day (3 hours)`, `ITEC437 - Night (3 hours)`, `ITEC451 - Day (3 hours)`, `ITEC451 - Night (3 hours)`, `ITEC464 - Day (3 hours)`, `ITEC464 - Night (3 hours)`, `ITEC47X - Day (3 hours)`, `ITEC47X - Night (3 hours)`, `ITEC470 - Day (3 hours)`, `ITEC470 - Night (3 hours)`, `ITEC485 - Day (3 hours)`, `ITEC485 - Night (3 hours)`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Timestamp" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Timestamp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="School_year" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="School year" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS211_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS211 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS211_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS211 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS211_-_Day_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS211 - Day (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS211_-_Night_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS211 - Night (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS239_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS239 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS239_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS239 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS265_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS265 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS265_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS265 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS334_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS334 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS334_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS334 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS350_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS350 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS350_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS350 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS377_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS377 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS377_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS377 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS379_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS379 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS379_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS379 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS397_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS397 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS397_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS397 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS426_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS426 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS426_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS426 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS435_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS435 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS435_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS435 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS436_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS436 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS436_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS436 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS440_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS440 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS440_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS440 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS440_-_Day_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS440 - Day (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS458_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS458 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS475_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS475 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS475_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS475 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS475_-_Day_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS475 - Day (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="CIS479_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="CIS479 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC175_-_Day_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC175 - Day (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC175_-_Night_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC175 - Night (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC236_-_Day_(5_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC236 - Day (5 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC236_-_Night_(5_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC236 - Night (5 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC237_-_Day_(5_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC237 - Day (5 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC237_-_Night_(5_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC237 - Night (5 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC290_-_Day_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC290 - Day (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC290_-_Night_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC290 - Night (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC310_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC310 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC310_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC310 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC314_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC314 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC314_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC314 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC336_-_Day_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC336 - Day (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC336_-_Night_(4_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC336 - Night (4 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC350_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC350 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC350_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC350 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC397_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC397 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC397_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC397 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC412_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC412 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC412_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC412 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC418_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC418 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC418_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC418 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC431_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC431 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC431_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC431 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC432_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC432 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC432_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC432 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC436_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC436 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC436_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC436 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC439_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC439 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC439_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC439 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC440_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC440 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC440_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC440 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC450_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC450 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC450_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC450 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC455_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC455 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC455_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC455 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC457_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC457 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC457_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC457 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC458_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC458 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC458_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC458 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC465_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC465 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC465_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC465 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC483_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC483 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC483_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC483 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC484_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC484 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC484_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC484 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC501_-_Day_(6_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC501 - Day (6 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC501_-_Night_(6_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC501 - Night (6 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC502_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC502 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC502_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC502 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC519_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC519 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC519_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC519 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC578_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC578 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC578_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC578 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC600_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC600 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC600_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC600 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC601_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC601 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC601_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC601 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC602_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC602 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC602_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC602 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC609_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC609 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC609_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC609 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC612_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC612 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC612_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC612 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC617_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC617 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC617_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC617 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC647_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC647 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC647_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC647 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC650_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC650 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC650_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC650 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC732_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC732 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC732_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC732 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC735_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC735 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC735_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC735 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC757_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC757 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC757_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC757 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC760_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC760 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="COSC760_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="COSC760 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC217_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC217 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC217_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC217 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC231_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC231 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC231_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC231 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC250_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC250 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC250_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC250 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC274_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC274 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC274_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC274 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC315_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC315 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC315_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC315 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC325_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC325 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC325_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC325 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC336_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC336 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC336_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC336 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC345_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC345 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC345_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC345 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC397_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC397 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC397_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC397 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC411_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC411 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC411_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC411 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC423_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC423 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC423_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC423 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC423_-_Day_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC423 - Day (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC423_-_Night_(3_hours)1" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC423 - Night (3 hours)1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC427_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC427 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC427_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC427 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC437_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC437 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC437_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC437 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC451_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC451 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC451_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC451 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC464_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC464 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC464_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC464 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC47X_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC47X - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC47X_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC47X - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC470_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC470 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC470_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC470 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC485_-_Day_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC485 - Day (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="ITEC485_-_Night_(3_hours)" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="ITEC485 - Night (3 hours)" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], [School year], [CIS211 - Day (3 hours)], [CIS211 - Night (3 hours)], [CIS211 - Day (3 hours)1], [CIS211 - Night (3 hours)1], [CIS239 - Day (3 hours)], [CIS239 - Night (3 hours)], [CIS265 - Day (3 hours)], [CIS265 - Night (3 hours)], [CIS334 - Day (3 hours)], [CIS334 - Night (3 hours)], [CIS350 - Day (3 hours)], [CIS350 - Night (3 hours)], [CIS377 - Day (3 hours)], [CIS377 - Night (3 hours)], [CIS379 - Day (3 hours)], [CIS379 - Night (3 hours)], [CIS397 - Day (3 hours)], [CIS397 - Night (3 hours)], [CIS426 - Day (3 hours)], [CIS426 - Night (3 hours)], [CIS435 - Day (3 hours)], [CIS435 - Night (3 hours)], [CIS436 - Day (3 hours)], [CIS436 - Night (3 hours)], [CIS440 - Day (3 hours)], [CIS440 - Night (3 hours)], [CIS440 - Day (3 hours)1], [CIS458 - Night (3 hours)], [CIS475 - Day (3 hours)], [CIS475 - Night (3 hours)], [CIS475 - Day (3 hours)1], [CIS479 - Night (3 hours)], [COSC175 - Day (4 hours)], [COSC175 - Night (4 hours)], [COSC236 - Day (5 hours)], [COSC236 - Night (5 hours)], [COSC237 - Day (5 hours)], [COSC237 - Night (5 hours)], [COSC290 - Day (4 hours)], [COSC290 - Night (4 hours)], [COSC310 - Day (3 hours)], [COSC310 - Night (3 hours)], [COSC314 - Day (3 hours)], [COSC314 - Night (3 hours)], [COSC336 - Day (4 hours)], [COSC336 - Night (4 hours)], [COSC350 - Day (3 hours)], [COSC350 - Night (3 hours)], [COSC397 - Day (3 hours)], [COSC397 - Night (3 hours)], [COSC412 - Day (3 hours)], [COSC412 - Night (3 hours)], [COSC418 - Day (3 hours)], [COSC418 - Night (3 hours)], [COSC431 - Day (3 hours)], [COSC431 - Night (3 hours)], [COSC432 - Day (3 hours)], [COSC432 - Night (3 hours)], [COSC436 - Day (3 hours)], [COSC436 - Night (3 hours)], [COSC439 - Day (3 hours)], [COSC439 - Night (3 hours)], [COSC440 - Day (3 hours)], [COSC440 - Night (3 hours)], [COSC450 - Day (3 hours)], [COSC450 - Night (3 hours)], [COSC455 - Day (3 hours)], [COSC455 - Night (3 hours)], [COSC457 - Day (3 hours)], [COSC457 - Night (3 hours)], [COSC458 - Day (3 hours)], [COSC458 - Night (3 hours)], [COSC465 - Day (3 hours)], [COSC465 - Night (3 hours)], [COSC483 - Day (3 hours)], [COSC483 - Night (3 hours)], [COSC484 - Day (3 hours)], [COSC484 - Night (3 hours)], [COSC501 - Day (6 hours)], [COSC501 - Night (6 hours)], [COSC502 - Day (3 hours)], [COSC502 - Night (3 hours)], [COSC519 - Day (3 hours)], [COSC519 - Night (3 hours)], [COSC578 - Day (3 hours)], [COSC578 - Night (3 hours)], [COSC600 - Day (3 hours)], [COSC600 - Night (3 hours)], [COSC601 - Day (3 hours)], [COSC601 - Night (3 hours)], [COSC602 - Day (3 hours)], [COSC602 - Night (3 hours)], [COSC609 - Day (3 hours)], [COSC609 - Night (3 hours)], [COSC612 - Day (3 hours)], [COSC612 - Night (3 hours)], [COSC617 - Day (3 hours)], [COSC617 - Night (3 hours)], [COSC647 - Day (3 hours)], [COSC647 - Night (3 hours)], [COSC650 - Day (3 hours)], [COSC650 - Night (3 hours)], [COSC732 - Day (3 hours)], [COSC732 - Night (3 hours)], [COSC735 - Day (3 hours)], [COSC735 - Night (3 hours)], [COSC757 - Day (3 hours)], [COSC757 - Night (3 hours)], [COSC760 - Day (3 hours)], [COSC760 - Night (3 hours)], [ITEC217 - Day (3 hours)], [ITEC217 - Night (3 hours)], [ITEC231 - Day (3 hours)], [ITEC231 - Night (3 hours)], [ITEC250 - Day (3 hours)], [ITEC250 - Night (3 hours)], [ITEC274 - Day (3 hours)], [ITEC274 - Night (3 hours)], [ITEC315 - Day (3 hours)], [ITEC315 - Night (3 hours)], [ITEC325 - Day (3 hours)], [ITEC325 - Night (3 hours)], [ITEC336 - Day (3 hours)], [ITEC336 - Night (3 hours)], [ITEC345 - Day (3 hours)], [ITEC345 - Night (3 hours)], [ITEC397 - Day (3 hours)], [ITEC397 - Night (3 hours)], [ITEC411 - Day (3 hours)], [ITEC411 - Night (3 hours)], [ITEC423 - Day (3 hours)], [ITEC423 - Night (3 hours)], [ITEC423 - Day (3 hours)1], [ITEC423 - Night (3 hours)1], [ITEC427 - Day (3 hours)], [ITEC427 - Night (3 hours)], [ITEC437 - Day (3 hours)], [ITEC437 - Night (3 hours)], [ITEC451 - Day (3 hours)], [ITEC451 - Night (3 hours)], [ITEC464 - Day (3 hours)], [ITEC464 - Night (3 hours)], [ITEC47X - Day (3 hours)], [ITEC47X - Night (3 hours)], [ITEC470 - Day (3 hours)], [ITEC470 - Night (3 hours)], [ITEC485 - Day (3 hours)], [ITEC485 - Night (3 hours)] FROM [Classes Needed for Semester]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Timestamp" DataSetColumn="Timestamp" />
+              <Mapping SourceColumn="School year" DataSetColumn="School year" />
+              <Mapping SourceColumn="CIS211 - Day (3 hours)" DataSetColumn="CIS211 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS211 - Night (3 hours)" DataSetColumn="CIS211 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS211 - Day (3 hours)1" DataSetColumn="CIS211 - Day (3 hours)1" />
+              <Mapping SourceColumn="CIS211 - Night (3 hours)1" DataSetColumn="CIS211 - Night (3 hours)1" />
+              <Mapping SourceColumn="CIS239 - Day (3 hours)" DataSetColumn="CIS239 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS239 - Night (3 hours)" DataSetColumn="CIS239 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS265 - Day (3 hours)" DataSetColumn="CIS265 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS265 - Night (3 hours)" DataSetColumn="CIS265 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS334 - Day (3 hours)" DataSetColumn="CIS334 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS334 - Night (3 hours)" DataSetColumn="CIS334 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS350 - Day (3 hours)" DataSetColumn="CIS350 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS350 - Night (3 hours)" DataSetColumn="CIS350 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS377 - Day (3 hours)" DataSetColumn="CIS377 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS377 - Night (3 hours)" DataSetColumn="CIS377 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS379 - Day (3 hours)" DataSetColumn="CIS379 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS379 - Night (3 hours)" DataSetColumn="CIS379 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS397 - Day (3 hours)" DataSetColumn="CIS397 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS397 - Night (3 hours)" DataSetColumn="CIS397 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS426 - Day (3 hours)" DataSetColumn="CIS426 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS426 - Night (3 hours)" DataSetColumn="CIS426 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS435 - Day (3 hours)" DataSetColumn="CIS435 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS435 - Night (3 hours)" DataSetColumn="CIS435 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS436 - Day (3 hours)" DataSetColumn="CIS436 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS436 - Night (3 hours)" DataSetColumn="CIS436 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS440 - Day (3 hours)" DataSetColumn="CIS440 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS440 - Night (3 hours)" DataSetColumn="CIS440 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS440 - Day (3 hours)1" DataSetColumn="CIS440 - Day (3 hours)1" />
+              <Mapping SourceColumn="CIS458 - Night (3 hours)" DataSetColumn="CIS458 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS475 - Day (3 hours)" DataSetColumn="CIS475 - Day (3 hours)" />
+              <Mapping SourceColumn="CIS475 - Night (3 hours)" DataSetColumn="CIS475 - Night (3 hours)" />
+              <Mapping SourceColumn="CIS475 - Day (3 hours)1" DataSetColumn="CIS475 - Day (3 hours)1" />
+              <Mapping SourceColumn="CIS479 - Night (3 hours)" DataSetColumn="CIS479 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC175 - Day (4 hours)" DataSetColumn="COSC175 - Day (4 hours)" />
+              <Mapping SourceColumn="COSC175 - Night (4 hours)" DataSetColumn="COSC175 - Night (4 hours)" />
+              <Mapping SourceColumn="COSC236 - Day (5 hours)" DataSetColumn="COSC236 - Day (5 hours)" />
+              <Mapping SourceColumn="COSC236 - Night (5 hours)" DataSetColumn="COSC236 - Night (5 hours)" />
+              <Mapping SourceColumn="COSC237 - Day (5 hours)" DataSetColumn="COSC237 - Day (5 hours)" />
+              <Mapping SourceColumn="COSC237 - Night (5 hours)" DataSetColumn="COSC237 - Night (5 hours)" />
+              <Mapping SourceColumn="COSC290 - Day (4 hours)" DataSetColumn="COSC290 - Day (4 hours)" />
+              <Mapping SourceColumn="COSC290 - Night (4 hours)" DataSetColumn="COSC290 - Night (4 hours)" />
+              <Mapping SourceColumn="COSC310 - Day (3 hours)" DataSetColumn="COSC310 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC310 - Night (3 hours)" DataSetColumn="COSC310 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC314 - Day (3 hours)" DataSetColumn="COSC314 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC314 - Night (3 hours)" DataSetColumn="COSC314 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC336 - Day (4 hours)" DataSetColumn="COSC336 - Day (4 hours)" />
+              <Mapping SourceColumn="COSC336 - Night (4 hours)" DataSetColumn="COSC336 - Night (4 hours)" />
+              <Mapping SourceColumn="COSC350 - Day (3 hours)" DataSetColumn="COSC350 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC350 - Night (3 hours)" DataSetColumn="COSC350 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC397 - Day (3 hours)" DataSetColumn="COSC397 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC397 - Night (3 hours)" DataSetColumn="COSC397 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC412 - Day (3 hours)" DataSetColumn="COSC412 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC412 - Night (3 hours)" DataSetColumn="COSC412 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC418 - Day (3 hours)" DataSetColumn="COSC418 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC418 - Night (3 hours)" DataSetColumn="COSC418 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC431 - Day (3 hours)" DataSetColumn="COSC431 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC431 - Night (3 hours)" DataSetColumn="COSC431 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC432 - Day (3 hours)" DataSetColumn="COSC432 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC432 - Night (3 hours)" DataSetColumn="COSC432 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC436 - Day (3 hours)" DataSetColumn="COSC436 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC436 - Night (3 hours)" DataSetColumn="COSC436 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC439 - Day (3 hours)" DataSetColumn="COSC439 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC439 - Night (3 hours)" DataSetColumn="COSC439 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC440 - Day (3 hours)" DataSetColumn="COSC440 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC440 - Night (3 hours)" DataSetColumn="COSC440 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC450 - Day (3 hours)" DataSetColumn="COSC450 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC450 - Night (3 hours)" DataSetColumn="COSC450 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC455 - Day (3 hours)" DataSetColumn="COSC455 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC455 - Night (3 hours)" DataSetColumn="COSC455 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC457 - Day (3 hours)" DataSetColumn="COSC457 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC457 - Night (3 hours)" DataSetColumn="COSC457 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC458 - Day (3 hours)" DataSetColumn="COSC458 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC458 - Night (3 hours)" DataSetColumn="COSC458 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC465 - Day (3 hours)" DataSetColumn="COSC465 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC465 - Night (3 hours)" DataSetColumn="COSC465 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC483 - Day (3 hours)" DataSetColumn="COSC483 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC483 - Night (3 hours)" DataSetColumn="COSC483 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC484 - Day (3 hours)" DataSetColumn="COSC484 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC484 - Night (3 hours)" DataSetColumn="COSC484 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC501 - Day (6 hours)" DataSetColumn="COSC501 - Day (6 hours)" />
+              <Mapping SourceColumn="COSC501 - Night (6 hours)" DataSetColumn="COSC501 - Night (6 hours)" />
+              <Mapping SourceColumn="COSC502 - Day (3 hours)" DataSetColumn="COSC502 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC502 - Night (3 hours)" DataSetColumn="COSC502 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC519 - Day (3 hours)" DataSetColumn="COSC519 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC519 - Night (3 hours)" DataSetColumn="COSC519 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC578 - Day (3 hours)" DataSetColumn="COSC578 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC578 - Night (3 hours)" DataSetColumn="COSC578 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC600 - Day (3 hours)" DataSetColumn="COSC600 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC600 - Night (3 hours)" DataSetColumn="COSC600 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC601 - Day (3 hours)" DataSetColumn="COSC601 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC601 - Night (3 hours)" DataSetColumn="COSC601 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC602 - Day (3 hours)" DataSetColumn="COSC602 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC602 - Night (3 hours)" DataSetColumn="COSC602 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC609 - Day (3 hours)" DataSetColumn="COSC609 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC609 - Night (3 hours)" DataSetColumn="COSC609 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC612 - Day (3 hours)" DataSetColumn="COSC612 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC612 - Night (3 hours)" DataSetColumn="COSC612 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC617 - Day (3 hours)" DataSetColumn="COSC617 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC617 - Night (3 hours)" DataSetColumn="COSC617 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC647 - Day (3 hours)" DataSetColumn="COSC647 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC647 - Night (3 hours)" DataSetColumn="COSC647 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC650 - Day (3 hours)" DataSetColumn="COSC650 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC650 - Night (3 hours)" DataSetColumn="COSC650 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC732 - Day (3 hours)" DataSetColumn="COSC732 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC732 - Night (3 hours)" DataSetColumn="COSC732 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC735 - Day (3 hours)" DataSetColumn="COSC735 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC735 - Night (3 hours)" DataSetColumn="COSC735 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC757 - Day (3 hours)" DataSetColumn="COSC757 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC757 - Night (3 hours)" DataSetColumn="COSC757 - Night (3 hours)" />
+              <Mapping SourceColumn="COSC760 - Day (3 hours)" DataSetColumn="COSC760 - Day (3 hours)" />
+              <Mapping SourceColumn="COSC760 - Night (3 hours)" DataSetColumn="COSC760 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC217 - Day (3 hours)" DataSetColumn="ITEC217 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC217 - Night (3 hours)" DataSetColumn="ITEC217 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC231 - Day (3 hours)" DataSetColumn="ITEC231 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC231 - Night (3 hours)" DataSetColumn="ITEC231 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC250 - Day (3 hours)" DataSetColumn="ITEC250 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC250 - Night (3 hours)" DataSetColumn="ITEC250 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC274 - Day (3 hours)" DataSetColumn="ITEC274 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC274 - Night (3 hours)" DataSetColumn="ITEC274 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC315 - Day (3 hours)" DataSetColumn="ITEC315 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC315 - Night (3 hours)" DataSetColumn="ITEC315 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC325 - Day (3 hours)" DataSetColumn="ITEC325 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC325 - Night (3 hours)" DataSetColumn="ITEC325 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC336 - Day (3 hours)" DataSetColumn="ITEC336 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC336 - Night (3 hours)" DataSetColumn="ITEC336 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC345 - Day (3 hours)" DataSetColumn="ITEC345 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC345 - Night (3 hours)" DataSetColumn="ITEC345 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC397 - Day (3 hours)" DataSetColumn="ITEC397 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC397 - Night (3 hours)" DataSetColumn="ITEC397 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC411 - Day (3 hours)" DataSetColumn="ITEC411 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC411 - Night (3 hours)" DataSetColumn="ITEC411 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC423 - Day (3 hours)" DataSetColumn="ITEC423 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC423 - Night (3 hours)" DataSetColumn="ITEC423 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC423 - Day (3 hours)1" DataSetColumn="ITEC423 - Day (3 hours)1" />
+              <Mapping SourceColumn="ITEC423 - Night (3 hours)1" DataSetColumn="ITEC423 - Night (3 hours)1" />
+              <Mapping SourceColumn="ITEC427 - Day (3 hours)" DataSetColumn="ITEC427 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC427 - Night (3 hours)" DataSetColumn="ITEC427 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC437 - Day (3 hours)" DataSetColumn="ITEC437 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC437 - Night (3 hours)" DataSetColumn="ITEC437 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC451 - Day (3 hours)" DataSetColumn="ITEC451 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC451 - Night (3 hours)" DataSetColumn="ITEC451 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC464 - Day (3 hours)" DataSetColumn="ITEC464 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC464 - Night (3 hours)" DataSetColumn="ITEC464 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC47X - Day (3 hours)" DataSetColumn="ITEC47X - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC47X - Night (3 hours)" DataSetColumn="ITEC47X - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC470 - Day (3 hours)" DataSetColumn="ITEC470 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC470 - Night (3 hours)" DataSetColumn="ITEC470 - Night (3 hours)" />
+              <Mapping SourceColumn="ITEC485 - Day (3 hours)" DataSetColumn="ITEC485 - Day (3 hours)" />
+              <Mapping SourceColumn="ITEC485 - Night (3 hours)" DataSetColumn="ITEC485 - Night (3 hours)" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Classes TaughtTableAdapter" GeneratorDataComponentClassName="Classes_TaughtTableAdapter" Name="Classes Taught" UserDataComponentName="Classes TaughtTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Classes Taught" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `Classes Taught` (`Timestamp`, `Name`, `TU ID`, `CIS Classes Previously Taught`, `COSC Classes Taught Previous`, `ITEC Classes Taught Previous`) VALUES (?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Timestamp" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Timestamp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="TU_ID" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="TU ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="CIS_Classes_Previously_Taught" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="CIS Classes Previously Taught" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="COSC_Classes_Taught_Previous" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="COSC Classes Taught Previous" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ITEC_Classes_Taught_Previous" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ITEC Classes Taught Previous" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], Name, [TU ID], [CIS Classes Previously Taught], [COSC Classes Taught Previous], [ITEC Classes Taught Previous] FROM [Classes Taught]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Timestamp" DataSetColumn="Timestamp" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="TU ID" DataSetColumn="TU ID" />
+              <Mapping SourceColumn="CIS Classes Previously Taught" DataSetColumn="CIS Classes Previously Taught" />
+              <Mapping SourceColumn="COSC Classes Taught Previous" DataSetColumn="COSC Classes Taught Previous" />
+              <Mapping SourceColumn="ITEC Classes Taught Previous" DataSetColumn="ITEC Classes Taught Previous" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Classes Taught" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], Name, [TU ID], [CIS Classes Previously Taught], [COSC Classes Taught Previous], [ITEC Classes Taught Previous] FROM [Classes Taught] WHERE [ITEC Classes Taught Previous] like "%211"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Classes Taught" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy1" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], Name, [TU ID], [CIS Classes Previously Taught], [COSC Classes Taught Previous], [ITEC Classes Taught Previous] FROM [Classes Taught] WHERE [CIS Classes Previously Taught] LIKE "CIS211" </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Classes Taught" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Find_CIS_211" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="Find_CIS_211" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="Find_CIS_211">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], Name, [TU ID], [CIS Classes Previously Taught], [COSC Classes Taught Previous], [ITEC Classes Taught Previous] FROM [Classes Taught] WHERE [CIS Classes Previously Taught] = "CIS211"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Days and hoursTableAdapter" GeneratorDataComponentClassName="Days_and_hoursTableAdapter" Name="Days and hours" UserDataComponentName="Days and hoursTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CIS_Scheduling_SystemConnectionString (MySettings)" DbObjectName="Days and hours" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `Days and hours` (`Timestamp`, `Your Name`, `Professor ID Num`, `Monday Available 8am-9:15am`, `Monday Available 9:30am-10:45am`, `Monday Available 11am-12:15pm`, `Monday Available 12:30pm-1:45pm`, `Monday Available 2pm-3:15pm`, `Monday Available 3:30pm-4:45pm`, `Monday Available 5pm-6:15pm`, `Monday Available 7pm-9:40pm`, `Tuesday Available 8am-9:15am`, `Tuesday Available 9:30am-10:45am`, `Tuesday Available 11am-12:15pm`, `Tuesday Available 12:30pm-1:45pm`, `Tuesday Available 2pm-3:15pm`, `Tuesday Available 3:30pm-4:45pm`, `Tuesday Available 5pm-6:15pm`, `Tuesday Available 7pm-9:40pm`, `Wednesday Available 8am-9:15am`, `Wednesday Available 9:30am-10:45am`, `Wednesday Available 11am-12:15pm`, `Wednesday Available 12:30pm-1:45pm`, `Wednesday Available 2pm-3:15pm`, `Wednesday Available 3:30pm-4:45pm`, `Wednesday Available 5pm-6:15pm`, `Wednesday Available 7pm-9:40pm`, `Thursday Available 8am-9:15am`, `Thursday Available 9:30am-10:45am`, `Thursday Available 11am-12:15pm`, `Thursday Available 12:30pm-1:45pm`, `Thursday Available 2pm-3:15pm`, `Thursday Available 3:30pm-4:45pm`, `Thursday Available 5pm-6:15pm`, `Thursday Available 7pm-9:40pm`, `Friday Available 8am-9:15am`, `Friday Available 9:30am-10:45am`, `Friday Available 11am-12:15pm`, `Friday Available 12:30pm-1:45pm`, `Friday Available 2pm-3:15pm`, `Friday Available 3:30pm-4:45pm`, `Friday Available 5pm-6:15pm`, `Friday Available 7pm-9:40pm`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="Timestamp" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="Timestamp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Your_Name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Your Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Professor_ID_Num" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Professor ID Num" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_8am-9:15am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 8am-9:15am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_9:30am-10:45am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 9:30am-10:45am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_11am-12:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 11am-12:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_12:30pm-1:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 12:30pm-1:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_2pm-3:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 2pm-3:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_3:30pm-4:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 3:30pm-4:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_5pm-6:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 5pm-6:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Monday_Available_7pm-9:40pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Monday Available 7pm-9:40pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_8am-9:15am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 8am-9:15am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_9:30am-10:45am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 9:30am-10:45am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_11am-12:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 11am-12:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_12:30pm-1:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 12:30pm-1:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_2pm-3:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 2pm-3:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_3:30pm-4:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 3:30pm-4:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_5pm-6:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 5pm-6:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Tuesday_Available_7pm-9:40pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Tuesday Available 7pm-9:40pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_8am-9:15am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 8am-9:15am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_9:30am-10:45am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 9:30am-10:45am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_11am-12:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 11am-12:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_12:30pm-1:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 12:30pm-1:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_2pm-3:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 2pm-3:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_3:30pm-4:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 3:30pm-4:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_5pm-6:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 5pm-6:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Wednesday_Available_7pm-9:40pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Wednesday Available 7pm-9:40pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_8am-9:15am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 8am-9:15am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_9:30am-10:45am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 9:30am-10:45am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_11am-12:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 11am-12:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_12:30pm-1:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 12:30pm-1:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_2pm-3:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 2pm-3:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_3:30pm-4:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 3:30pm-4:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_5pm-6:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 5pm-6:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Thursday_Available_7pm-9:40pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Thursday Available 7pm-9:40pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_8am-9:15am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 8am-9:15am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_9:30am-10:45am" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 9:30am-10:45am" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_11am-12:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 11am-12:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_12:30pm-1:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 12:30pm-1:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_2pm-3:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 2pm-3:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_3:30pm-4:45pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 3:30pm-4:45pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_5pm-6:15pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 5pm-6:15pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Friday_Available_7pm-9:40pm" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Friday Available 7pm-9:40pm" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Timestamp], [Your Name], [Professor ID Num], [Monday Available 8am-9:15am], [Monday Available 9:30am-10:45am], [Monday Available 11am-12:15pm], [Monday Available 12:30pm-1:45pm], [Monday Available 2pm-3:15pm], [Monday Available 3:30pm-4:45pm], [Monday Available 5pm-6:15pm], [Monday Available 7pm-9:40pm], [Tuesday Available 8am-9:15am], [Tuesday Available 9:30am-10:45am], [Tuesday Available 11am-12:15pm], [Tuesday Available 12:30pm-1:45pm], [Tuesday Available 2pm-3:15pm], [Tuesday Available 3:30pm-4:45pm], [Tuesday Available 5pm-6:15pm], [Tuesday Available 7pm-9:40pm], [Wednesday Available 8am-9:15am], [Wednesday Available 9:30am-10:45am], [Wednesday Available 11am-12:15pm], [Wednesday Available 12:30pm-1:45pm], [Wednesday Available 2pm-3:15pm], [Wednesday Available 3:30pm-4:45pm], [Wednesday Available 5pm-6:15pm], [Wednesday Available 7pm-9:40pm], [Thursday Available 8am-9:15am], [Thursday Available 9:30am-10:45am], [Thursday Available 11am-12:15pm], [Thursday Available 12:30pm-1:45pm], [Thursday Available 2pm-3:15pm], [Thursday Available 3:30pm-4:45pm], [Thursday Available 5pm-6:15pm], [Thursday Available 7pm-9:40pm], [Friday Available 8am-9:15am], [Friday Available 9:30am-10:45am], [Friday Available 11am-12:15pm], [Friday Available 12:30pm-1:45pm], [Friday Available 2pm-3:15pm], [Friday Available 3:30pm-4:45pm], [Friday Available 5pm-6:15pm], [Friday Available 7pm-9:40pm] FROM [Days and hours]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Timestamp" DataSetColumn="Timestamp" />
+              <Mapping SourceColumn="Your Name" DataSetColumn="Your Name" />
+              <Mapping SourceColumn="Professor ID Num" DataSetColumn="Professor ID Num" />
+              <Mapping SourceColumn="Monday Available 8am-9:15am" DataSetColumn="Monday Available 8am-9:15am" />
+              <Mapping SourceColumn="Monday Available 9:30am-10:45am" DataSetColumn="Monday Available 9:30am-10:45am" />
+              <Mapping SourceColumn="Monday Available 11am-12:15pm" DataSetColumn="Monday Available 11am-12:15pm" />
+              <Mapping SourceColumn="Monday Available 12:30pm-1:45pm" DataSetColumn="Monday Available 12:30pm-1:45pm" />
+              <Mapping SourceColumn="Monday Available 2pm-3:15pm" DataSetColumn="Monday Available 2pm-3:15pm" />
+              <Mapping SourceColumn="Monday Available 3:30pm-4:45pm" DataSetColumn="Monday Available 3:30pm-4:45pm" />
+              <Mapping SourceColumn="Monday Available 5pm-6:15pm" DataSetColumn="Monday Available 5pm-6:15pm" />
+              <Mapping SourceColumn="Monday Available 7pm-9:40pm" DataSetColumn="Monday Available 7pm-9:40pm" />
+              <Mapping SourceColumn="Tuesday Available 8am-9:15am" DataSetColumn="Tuesday Available 8am-9:15am" />
+              <Mapping SourceColumn="Tuesday Available 9:30am-10:45am" DataSetColumn="Tuesday Available 9:30am-10:45am" />
+              <Mapping SourceColumn="Tuesday Available 11am-12:15pm" DataSetColumn="Tuesday Available 11am-12:15pm" />
+              <Mapping SourceColumn="Tuesday Available 12:30pm-1:45pm" DataSetColumn="Tuesday Available 12:30pm-1:45pm" />
+              <Mapping SourceColumn="Tuesday Available 2pm-3:15pm" DataSetColumn="Tuesday Available 2pm-3:15pm" />
+              <Mapping SourceColumn="Tuesday Available 3:30pm-4:45pm" DataSetColumn="Tuesday Available 3:30pm-4:45pm" />
+              <Mapping SourceColumn="Tuesday Available 5pm-6:15pm" DataSetColumn="Tuesday Available 5pm-6:15pm" />
+              <Mapping SourceColumn="Tuesday Available 7pm-9:40pm" DataSetColumn="Tuesday Available 7pm-9:40pm" />
+              <Mapping SourceColumn="Wednesday Available 8am-9:15am" DataSetColumn="Wednesday Available 8am-9:15am" />
+              <Mapping SourceColumn="Wednesday Available 9:30am-10:45am" DataSetColumn="Wednesday Available 9:30am-10:45am" />
+              <Mapping SourceColumn="Wednesday Available 11am-12:15pm" DataSetColumn="Wednesday Available 11am-12:15pm" />
+              <Mapping SourceColumn="Wednesday Available 12:30pm-1:45pm" DataSetColumn="Wednesday Available 12:30pm-1:45pm" />
+              <Mapping SourceColumn="Wednesday Available 2pm-3:15pm" DataSetColumn="Wednesday Available 2pm-3:15pm" />
+              <Mapping SourceColumn="Wednesday Available 3:30pm-4:45pm" DataSetColumn="Wednesday Available 3:30pm-4:45pm" />
+              <Mapping SourceColumn="Wednesday Available 5pm-6:15pm" DataSetColumn="Wednesday Available 5pm-6:15pm" />
+              <Mapping SourceColumn="Wednesday Available 7pm-9:40pm" DataSetColumn="Wednesday Available 7pm-9:40pm" />
+              <Mapping SourceColumn="Thursday Available 8am-9:15am" DataSetColumn="Thursday Available 8am-9:15am" />
+              <Mapping SourceColumn="Thursday Available 9:30am-10:45am" DataSetColumn="Thursday Available 9:30am-10:45am" />
+              <Mapping SourceColumn="Thursday Available 11am-12:15pm" DataSetColumn="Thursday Available 11am-12:15pm" />
+              <Mapping SourceColumn="Thursday Available 12:30pm-1:45pm" DataSetColumn="Thursday Available 12:30pm-1:45pm" />
+              <Mapping SourceColumn="Thursday Available 2pm-3:15pm" DataSetColumn="Thursday Available 2pm-3:15pm" />
+              <Mapping SourceColumn="Thursday Available 3:30pm-4:45pm" DataSetColumn="Thursday Available 3:30pm-4:45pm" />
+              <Mapping SourceColumn="Thursday Available 5pm-6:15pm" DataSetColumn="Thursday Available 5pm-6:15pm" />
+              <Mapping SourceColumn="Thursday Available 7pm-9:40pm" DataSetColumn="Thursday Available 7pm-9:40pm" />
+              <Mapping SourceColumn="Friday Available 8am-9:15am" DataSetColumn="Friday Available 8am-9:15am" />
+              <Mapping SourceColumn="Friday Available 9:30am-10:45am" DataSetColumn="Friday Available 9:30am-10:45am" />
+              <Mapping SourceColumn="Friday Available 11am-12:15pm" DataSetColumn="Friday Available 11am-12:15pm" />
+              <Mapping SourceColumn="Friday Available 12:30pm-1:45pm" DataSetColumn="Friday Available 12:30pm-1:45pm" />
+              <Mapping SourceColumn="Friday Available 2pm-3:15pm" DataSetColumn="Friday Available 2pm-3:15pm" />
+              <Mapping SourceColumn="Friday Available 3:30pm-4:45pm" DataSetColumn="Friday Available 3:30pm-4:45pm" />
+              <Mapping SourceColumn="Friday Available 5pm-6:15pm" DataSetColumn="Friday Available 5pm-6:15pm" />
+              <Mapping SourceColumn="Friday Available 7pm-9:40pm" DataSetColumn="Friday Available 7pm-9:40pm" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CIS_Scheduling_SystemDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="CIS_Scheduling_SystemDataSet" msprop:Generator_UserDSName="CIS_Scheduling_SystemDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Classes_x0020_Needed_x0020_for_x0020_Semester" msprop:Generator_TableClassName="Classes_Needed_for_SemesterDataTable" msprop:Generator_TableVarName="tableClasses_Needed_for_Semester" msprop:Generator_TablePropName="Classes_Needed_for_Semester" msprop:Generator_RowDeletingName="Classes_Needed_for_SemesterRowDeleting" msprop:Generator_RowChangingName="Classes_Needed_for_SemesterRowChanging" msprop:Generator_RowEvHandlerName="Classes_Needed_for_SemesterRowChangeEventHandler" msprop:Generator_RowDeletedName="Classes_Needed_for_SemesterRowDeleted" msprop:Generator_UserTableName="Classes Needed for Semester" msprop:Generator_RowChangedName="Classes_Needed_for_SemesterRowChanged" msprop:Generator_RowEvArgName="Classes_Needed_for_SemesterRowChangeEvent" msprop:Generator_RowClassName="Classes_Needed_for_SemesterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Timestamp" msprop:Generator_ColumnVarNameInTable="columnTimestamp" msprop:Generator_ColumnPropNameInRow="Timestamp" msprop:Generator_ColumnPropNameInTable="TimestampColumn" msprop:Generator_UserColumnName="Timestamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="School_x0020_year" msprop:Generator_ColumnVarNameInTable="columnSchool_year" msprop:Generator_ColumnPropNameInRow="School_year" msprop:Generator_ColumnPropNameInTable="School_yearColumn" msprop:Generator_UserColumnName="School year" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS211_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS211___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS211___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS211___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS211 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS211_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS211___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS211___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS211___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS211 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS211_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnCIS211___Day__3_hours_1" msprop:Generator_ColumnPropNameInRow="_CIS211___Day__3_hours_1" msprop:Generator_ColumnPropNameInTable="_CIS211___Day__3_hours_1Column" msprop:Generator_UserColumnName="CIS211 - Day (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS211_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnCIS211___Night__3_hours_1" msprop:Generator_ColumnPropNameInRow="_CIS211___Night__3_hours_1" msprop:Generator_ColumnPropNameInTable="_CIS211___Night__3_hours_1Column" msprop:Generator_UserColumnName="CIS211 - Night (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS239_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS239___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS239___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS239___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS239 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS239_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS239___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS239___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS239___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS239 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS265_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS265___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS265___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS265___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS265 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS265_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS265___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS265___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS265___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS265 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS334_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS334___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS334___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS334___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS334 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS334_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS334___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS334___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS334___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS334 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS350_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS350___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS350___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS350___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS350 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS350_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS350___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS350___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS350___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS350 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS377_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS377___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS377___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS377___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS377 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS377_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS377___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS377___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS377___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS377 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS379_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS379___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS379___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS379___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS379 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS379_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS379___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS379___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS379___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS379 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS397_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS397___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS397___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS397___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS397 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS397_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS397___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS397___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS397___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS397 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS426_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS426___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS426___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS426___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS426 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS426_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS426___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS426___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS426___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS426 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS435_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS435___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS435___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS435___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS435 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS435_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS435___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS435___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS435___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS435 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS436_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS436___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS436___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS436___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS436 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS436_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS436___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS436___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS436___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS436 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS440_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS440___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS440___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS440___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS440 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS440_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS440___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS440___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS440___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS440 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS440_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnCIS440___Day__3_hours_1" msprop:Generator_ColumnPropNameInRow="_CIS440___Day__3_hours_1" msprop:Generator_ColumnPropNameInTable="_CIS440___Day__3_hours_1Column" msprop:Generator_UserColumnName="CIS440 - Day (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS458_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS458___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS458___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS458___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS458 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS475_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS475___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS475___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS475___Day__3_hours_Column" msprop:Generator_UserColumnName="CIS475 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS475_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS475___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS475___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS475___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS475 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS475_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnCIS475___Day__3_hours_1" msprop:Generator_ColumnPropNameInRow="_CIS475___Day__3_hours_1" msprop:Generator_ColumnPropNameInTable="_CIS475___Day__3_hours_1Column" msprop:Generator_UserColumnName="CIS475 - Day (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS479_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCIS479___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_CIS479___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_CIS479___Night__3_hours_Column" msprop:Generator_UserColumnName="CIS479 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC175_x0020_-_x0020_Day_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC175___Day__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC175___Day__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC175___Day__4_hours_Column" msprop:Generator_UserColumnName="COSC175 - Day (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC175_x0020_-_x0020_Night_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC175___Night__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC175___Night__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC175___Night__4_hours_Column" msprop:Generator_UserColumnName="COSC175 - Night (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC236_x0020_-_x0020_Day_x0020__x0028_5_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC236___Day__5_hours_" msprop:Generator_ColumnPropNameInRow="_COSC236___Day__5_hours_" msprop:Generator_ColumnPropNameInTable="_COSC236___Day__5_hours_Column" msprop:Generator_UserColumnName="COSC236 - Day (5 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC236_x0020_-_x0020_Night_x0020__x0028_5_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC236___Night__5_hours_" msprop:Generator_ColumnPropNameInRow="_COSC236___Night__5_hours_" msprop:Generator_ColumnPropNameInTable="_COSC236___Night__5_hours_Column" msprop:Generator_UserColumnName="COSC236 - Night (5 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC237_x0020_-_x0020_Day_x0020__x0028_5_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC237___Day__5_hours_" msprop:Generator_ColumnPropNameInRow="_COSC237___Day__5_hours_" msprop:Generator_ColumnPropNameInTable="_COSC237___Day__5_hours_Column" msprop:Generator_UserColumnName="COSC237 - Day (5 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC237_x0020_-_x0020_Night_x0020__x0028_5_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC237___Night__5_hours_" msprop:Generator_ColumnPropNameInRow="_COSC237___Night__5_hours_" msprop:Generator_ColumnPropNameInTable="_COSC237___Night__5_hours_Column" msprop:Generator_UserColumnName="COSC237 - Night (5 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC290_x0020_-_x0020_Day_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC290___Day__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC290___Day__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC290___Day__4_hours_Column" msprop:Generator_UserColumnName="COSC290 - Day (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC290_x0020_-_x0020_Night_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC290___Night__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC290___Night__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC290___Night__4_hours_Column" msprop:Generator_UserColumnName="COSC290 - Night (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC310_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC310___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC310___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC310___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC310 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC310_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC310___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC310___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC310___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC310 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC314_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC314___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC314___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC314___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC314 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC314_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC314___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC314___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC314___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC314 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC336_x0020_-_x0020_Day_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC336___Day__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC336___Day__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC336___Day__4_hours_Column" msprop:Generator_UserColumnName="COSC336 - Day (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC336_x0020_-_x0020_Night_x0020__x0028_4_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC336___Night__4_hours_" msprop:Generator_ColumnPropNameInRow="_COSC336___Night__4_hours_" msprop:Generator_ColumnPropNameInTable="_COSC336___Night__4_hours_Column" msprop:Generator_UserColumnName="COSC336 - Night (4 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC350_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC350___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC350___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC350___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC350 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC350_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC350___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC350___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC350___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC350 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC397_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC397___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC397___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC397___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC397 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC397_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC397___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC397___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC397___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC397 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC412_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC412___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC412___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC412___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC412 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC412_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC412___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC412___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC412___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC412 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC418_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC418___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC418___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC418___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC418 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC418_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC418___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC418___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC418___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC418 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC431_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC431___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC431___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC431___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC431 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC431_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC431___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC431___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC431___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC431 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC432_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC432___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC432___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC432___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC432 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC432_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC432___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC432___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC432___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC432 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC436_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC436___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC436___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC436___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC436 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC436_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC436___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC436___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC436___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC436 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC439_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC439___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC439___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC439___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC439 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC439_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC439___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC439___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC439___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC439 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC440_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC440___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC440___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC440___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC440 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC440_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC440___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC440___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC440___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC440 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC450_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC450___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC450___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC450___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC450 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC450_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC450___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC450___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC450___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC450 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC455_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC455___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC455___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC455___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC455 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC455_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC455___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC455___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC455___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC455 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC457_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC457___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC457___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC457___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC457 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC457_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC457___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC457___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC457___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC457 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC458_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC458___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC458___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC458___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC458 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC458_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC458___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC458___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC458___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC458 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC465_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC465___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC465___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC465___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC465 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC465_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC465___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC465___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC465___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC465 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC483_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC483___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC483___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC483___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC483 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC483_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC483___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC483___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC483___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC483 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC484_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC484___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC484___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC484___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC484 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC484_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC484___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC484___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC484___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC484 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC501_x0020_-_x0020_Day_x0020__x0028_6_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC501___Day__6_hours_" msprop:Generator_ColumnPropNameInRow="_COSC501___Day__6_hours_" msprop:Generator_ColumnPropNameInTable="_COSC501___Day__6_hours_Column" msprop:Generator_UserColumnName="COSC501 - Day (6 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC501_x0020_-_x0020_Night_x0020__x0028_6_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC501___Night__6_hours_" msprop:Generator_ColumnPropNameInRow="_COSC501___Night__6_hours_" msprop:Generator_ColumnPropNameInTable="_COSC501___Night__6_hours_Column" msprop:Generator_UserColumnName="COSC501 - Night (6 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC502_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC502___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC502___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC502___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC502 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC502_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC502___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC502___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC502___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC502 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC519_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC519___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC519___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC519___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC519 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC519_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC519___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC519___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC519___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC519 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC578_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC578___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC578___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC578___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC578 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC578_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC578___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC578___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC578___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC578 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC600_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC600___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC600___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC600___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC600 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC600_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC600___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC600___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC600___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC600 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC601_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC601___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC601___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC601___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC601 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC601_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC601___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC601___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC601___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC601 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC602_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC602___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC602___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC602___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC602 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC602_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC602___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC602___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC602___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC602 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC609_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC609___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC609___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC609___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC609 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC609_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC609___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC609___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC609___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC609 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC612_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC612___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC612___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC612___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC612 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC612_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC612___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC612___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC612___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC612 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC617_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC617___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC617___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC617___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC617 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC617_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC617___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC617___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC617___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC617 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC647_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC647___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC647___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC647___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC647 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC647_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC647___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC647___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC647___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC647 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC650_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC650___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC650___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC650___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC650 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC650_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC650___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC650___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC650___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC650 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC732_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC732___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC732___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC732___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC732 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC732_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC732___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC732___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC732___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC732 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC735_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC735___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC735___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC735___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC735 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC735_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC735___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC735___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC735___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC735 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC757_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC757___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC757___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC757___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC757 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC757_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC757___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC757___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC757___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC757 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC760_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC760___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC760___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC760___Day__3_hours_Column" msprop:Generator_UserColumnName="COSC760 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="COSC760_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnCOSC760___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_COSC760___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_COSC760___Night__3_hours_Column" msprop:Generator_UserColumnName="COSC760 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC217_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC217___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC217___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC217___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC217 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC217_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC217___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC217___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC217___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC217 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC231_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC231___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC231___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC231___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC231 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC231_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC231___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC231___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC231___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC231 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC250_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC250___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC250___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC250___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC250 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC250_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC250___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC250___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC250___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC250 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC274_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC274___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC274___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC274___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC274 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC274_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC274___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC274___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC274___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC274 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC315_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC315___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC315___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC315___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC315 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC315_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC315___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC315___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC315___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC315 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC325_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC325___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC325___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC325___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC325 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC325_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC325___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC325___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC325___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC325 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC336_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC336___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC336___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC336___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC336 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC336_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC336___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC336___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC336___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC336 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC345_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC345___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC345___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC345___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC345 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC345_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC345___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC345___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC345___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC345 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC397_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC397___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC397___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC397___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC397 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC397_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC397___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC397___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC397___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC397 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC411_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC411___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC411___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC411___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC411 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC411_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC411___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC411___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC411___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC411 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC423_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC423___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC423___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC423___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC423 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC423_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC423___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC423___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC423___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC423 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC423_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnITEC423___Day__3_hours_1" msprop:Generator_ColumnPropNameInRow="_ITEC423___Day__3_hours_1" msprop:Generator_ColumnPropNameInTable="_ITEC423___Day__3_hours_1Column" msprop:Generator_UserColumnName="ITEC423 - Day (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC423_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_1" msprop:Generator_ColumnVarNameInTable="_columnITEC423___Night__3_hours_1" msprop:Generator_ColumnPropNameInRow="_ITEC423___Night__3_hours_1" msprop:Generator_ColumnPropNameInTable="_ITEC423___Night__3_hours_1Column" msprop:Generator_UserColumnName="ITEC423 - Night (3 hours)1" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC427_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC427___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC427___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC427___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC427 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC427_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC427___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC427___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC427___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC427 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC437_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC437___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC437___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC437___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC437 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC437_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC437___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC437___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC437___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC437 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC451_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC451___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC451___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC451___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC451 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC451_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC451___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC451___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC451___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC451 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC464_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC464___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC464___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC464___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC464 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC464_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC464___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC464___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC464___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC464 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC47X_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC47X___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC47X___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC47X___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC47X - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC47X_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC47X___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC47X___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC47X___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC47X - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC470_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC470___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC470___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC470___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC470 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC470_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC470___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC470___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC470___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC470 - Night (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC485_x0020_-_x0020_Day_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC485___Day__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC485___Day__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC485___Day__3_hours_Column" msprop:Generator_UserColumnName="ITEC485 - Day (3 hours)" type="xs:double" minOccurs="0" />
+              <xs:element name="ITEC485_x0020_-_x0020_Night_x0020__x0028_3_x0020_hours_x0029_" msprop:Generator_ColumnVarNameInTable="_columnITEC485___Night__3_hours_" msprop:Generator_ColumnPropNameInRow="_ITEC485___Night__3_hours_" msprop:Generator_ColumnPropNameInTable="_ITEC485___Night__3_hours_Column" msprop:Generator_UserColumnName="ITEC485 - Night (3 hours)" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Classes_x0020_Taught" msprop:Generator_TableClassName="Classes_TaughtDataTable" msprop:Generator_TableVarName="tableClasses_Taught" msprop:Generator_TablePropName="Classes_Taught" msprop:Generator_RowDeletingName="Classes_TaughtRowDeleting" msprop:Generator_RowChangingName="Classes_TaughtRowChanging" msprop:Generator_RowEvHandlerName="Classes_TaughtRowChangeEventHandler" msprop:Generator_RowDeletedName="Classes_TaughtRowDeleted" msprop:Generator_UserTableName="Classes Taught" msprop:Generator_RowChangedName="Classes_TaughtRowChanged" msprop:Generator_RowEvArgName="Classes_TaughtRowChangeEvent" msprop:Generator_RowClassName="Classes_TaughtRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Timestamp" msprop:Generator_ColumnVarNameInTable="columnTimestamp" msprop:Generator_ColumnPropNameInRow="Timestamp" msprop:Generator_ColumnPropNameInTable="TimestampColumn" msprop:Generator_UserColumnName="Timestamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TU_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnTU_ID" msprop:Generator_ColumnPropNameInRow="TU_ID" msprop:Generator_ColumnPropNameInTable="TU_IDColumn" msprop:Generator_UserColumnName="TU ID" type="xs:double" minOccurs="0" />
+              <xs:element name="CIS_x0020_Classes_x0020_Previously_x0020_Taught" msprop:Generator_ColumnVarNameInTable="columnCIS_Classes_Previously_Taught" msprop:Generator_ColumnPropNameInRow="CIS_Classes_Previously_Taught" msprop:Generator_ColumnPropNameInTable="CIS_Classes_Previously_TaughtColumn" msprop:Generator_UserColumnName="CIS Classes Previously Taught" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COSC_x0020_Classes_x0020_Taught_x0020_Previous" msprop:Generator_ColumnVarNameInTable="columnCOSC_Classes_Taught_Previous" msprop:Generator_ColumnPropNameInRow="COSC_Classes_Taught_Previous" msprop:Generator_ColumnPropNameInTable="COSC_Classes_Taught_PreviousColumn" msprop:Generator_UserColumnName="COSC Classes Taught Previous" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ITEC_x0020_Classes_x0020_Taught_x0020_Previous" msprop:Generator_ColumnVarNameInTable="columnITEC_Classes_Taught_Previous" msprop:Generator_ColumnPropNameInRow="ITEC_Classes_Taught_Previous" msprop:Generator_ColumnPropNameInTable="ITEC_Classes_Taught_PreviousColumn" msprop:Generator_UserColumnName="ITEC Classes Taught Previous" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Days_x0020_and_x0020_hours" msprop:Generator_TableClassName="Days_and_hoursDataTable" msprop:Generator_TableVarName="tableDays_and_hours" msprop:Generator_TablePropName="Days_and_hours" msprop:Generator_RowDeletingName="Days_and_hoursRowDeleting" msprop:Generator_RowChangingName="Days_and_hoursRowChanging" msprop:Generator_RowEvHandlerName="Days_and_hoursRowChangeEventHandler" msprop:Generator_RowDeletedName="Days_and_hoursRowDeleted" msprop:Generator_UserTableName="Days and hours" msprop:Generator_RowChangedName="Days_and_hoursRowChanged" msprop:Generator_RowEvArgName="Days_and_hoursRowChangeEvent" msprop:Generator_RowClassName="Days_and_hoursRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Timestamp" msprop:Generator_ColumnVarNameInTable="columnTimestamp" msprop:Generator_ColumnPropNameInRow="Timestamp" msprop:Generator_ColumnPropNameInTable="TimestampColumn" msprop:Generator_UserColumnName="Timestamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Your_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnYour_Name" msprop:Generator_ColumnPropNameInRow="Your_Name" msprop:Generator_ColumnPropNameInTable="Your_NameColumn" msprop:Generator_UserColumnName="Your Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Professor_x0020_ID_x0020_Num" msprop:Generator_ColumnVarNameInTable="columnProfessor_ID_Num" msprop:Generator_ColumnPropNameInRow="Professor_ID_Num" msprop:Generator_ColumnPropNameInTable="Professor_ID_NumColumn" msprop:Generator_UserColumnName="Professor ID Num" type="xs:double" minOccurs="0" />
+              <xs:element name="Monday_x0020_Available_x0020_8am-9_x003A_15am" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInRow="_Monday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInTable="_Monday_Available_8am_9_15amColumn" msprop:Generator_UserColumnName="Monday Available 8am-9:15am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_9_x003A_30am-10_x003A_45am" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInRow="_Monday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInTable="_Monday_Available_9_30am_10_45amColumn" msprop:Generator_UserColumnName="Monday Available 9:30am-10:45am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_11am-12_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_11am_12_15pmColumn" msprop:Generator_UserColumnName="Monday Available 11am-12:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_12_x003A_30pm-1_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_12_30pm_1_45pmColumn" msprop:Generator_UserColumnName="Monday Available 12:30pm-1:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_2pm-3_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_2pm_3_15pmColumn" msprop:Generator_UserColumnName="Monday Available 2pm-3:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_3_x003A_30pm-4_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_3_30pm_4_45pmColumn" msprop:Generator_UserColumnName="Monday Available 3:30pm-4:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_5pm-6_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_5pm_6_15pmColumn" msprop:Generator_UserColumnName="Monday Available 5pm-6:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monday_x0020_Available_x0020_7pm-9_x003A_40pm" msprop:Generator_ColumnVarNameInTable="_columnMonday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInRow="_Monday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInTable="_Monday_Available_7pm_9_40pmColumn" msprop:Generator_UserColumnName="Monday Available 7pm-9:40pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_8am-9_x003A_15am" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_8am_9_15amColumn" msprop:Generator_UserColumnName="Tuesday Available 8am-9:15am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_9_x003A_30am-10_x003A_45am" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_9_30am_10_45amColumn" msprop:Generator_UserColumnName="Tuesday Available 9:30am-10:45am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_11am-12_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_11am_12_15pmColumn" msprop:Generator_UserColumnName="Tuesday Available 11am-12:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_12_x003A_30pm-1_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_12_30pm_1_45pmColumn" msprop:Generator_UserColumnName="Tuesday Available 12:30pm-1:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_2pm-3_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_2pm_3_15pmColumn" msprop:Generator_UserColumnName="Tuesday Available 2pm-3:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_3_x003A_30pm-4_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_3_30pm_4_45pmColumn" msprop:Generator_UserColumnName="Tuesday Available 3:30pm-4:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_5pm-6_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_5pm_6_15pmColumn" msprop:Generator_UserColumnName="Tuesday Available 5pm-6:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tuesday_x0020_Available_x0020_7pm-9_x003A_40pm" msprop:Generator_ColumnVarNameInTable="_columnTuesday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInRow="_Tuesday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInTable="_Tuesday_Available_7pm_9_40pmColumn" msprop:Generator_UserColumnName="Tuesday Available 7pm-9:40pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_8am-9_x003A_15am" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_8am_9_15amColumn" msprop:Generator_UserColumnName="Wednesday Available 8am-9:15am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_9_x003A_30am-10_x003A_45am" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_9_30am_10_45amColumn" msprop:Generator_UserColumnName="Wednesday Available 9:30am-10:45am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_11am-12_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_11am_12_15pmColumn" msprop:Generator_UserColumnName="Wednesday Available 11am-12:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_12_x003A_30pm-1_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_12_30pm_1_45pmColumn" msprop:Generator_UserColumnName="Wednesday Available 12:30pm-1:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_2pm-3_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_2pm_3_15pmColumn" msprop:Generator_UserColumnName="Wednesday Available 2pm-3:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_3_x003A_30pm-4_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_3_30pm_4_45pmColumn" msprop:Generator_UserColumnName="Wednesday Available 3:30pm-4:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_5pm-6_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_5pm_6_15pmColumn" msprop:Generator_UserColumnName="Wednesday Available 5pm-6:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wednesday_x0020_Available_x0020_7pm-9_x003A_40pm" msprop:Generator_ColumnVarNameInTable="_columnWednesday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInRow="_Wednesday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInTable="_Wednesday_Available_7pm_9_40pmColumn" msprop:Generator_UserColumnName="Wednesday Available 7pm-9:40pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_8am-9_x003A_15am" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_8am_9_15amColumn" msprop:Generator_UserColumnName="Thursday Available 8am-9:15am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_9_x003A_30am-10_x003A_45am" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_9_30am_10_45amColumn" msprop:Generator_UserColumnName="Thursday Available 9:30am-10:45am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_11am-12_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_11am_12_15pmColumn" msprop:Generator_UserColumnName="Thursday Available 11am-12:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_12_x003A_30pm-1_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_12_30pm_1_45pmColumn" msprop:Generator_UserColumnName="Thursday Available 12:30pm-1:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_2pm-3_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_2pm_3_15pmColumn" msprop:Generator_UserColumnName="Thursday Available 2pm-3:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_3_x003A_30pm-4_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_3_30pm_4_45pmColumn" msprop:Generator_UserColumnName="Thursday Available 3:30pm-4:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_5pm-6_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_5pm_6_15pmColumn" msprop:Generator_UserColumnName="Thursday Available 5pm-6:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Thursday_x0020_Available_x0020_7pm-9_x003A_40pm" msprop:Generator_ColumnVarNameInTable="_columnThursday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInRow="_Thursday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInTable="_Thursday_Available_7pm_9_40pmColumn" msprop:Generator_UserColumnName="Thursday Available 7pm-9:40pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_8am-9_x003A_15am" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInRow="_Friday_Available_8am_9_15am" msprop:Generator_ColumnPropNameInTable="_Friday_Available_8am_9_15amColumn" msprop:Generator_UserColumnName="Friday Available 8am-9:15am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_9_x003A_30am-10_x003A_45am" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInRow="_Friday_Available_9_30am_10_45am" msprop:Generator_ColumnPropNameInTable="_Friday_Available_9_30am_10_45amColumn" msprop:Generator_UserColumnName="Friday Available 9:30am-10:45am" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_11am-12_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_11am_12_15pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_11am_12_15pmColumn" msprop:Generator_UserColumnName="Friday Available 11am-12:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_12_x003A_30pm-1_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_12_30pm_1_45pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_12_30pm_1_45pmColumn" msprop:Generator_UserColumnName="Friday Available 12:30pm-1:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_2pm-3_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_2pm_3_15pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_2pm_3_15pmColumn" msprop:Generator_UserColumnName="Friday Available 2pm-3:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_3_x003A_30pm-4_x003A_45pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_3_30pm_4_45pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_3_30pm_4_45pmColumn" msprop:Generator_UserColumnName="Friday Available 3:30pm-4:45pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_5pm-6_x003A_15pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_5pm_6_15pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_5pm_6_15pmColumn" msprop:Generator_UserColumnName="Friday Available 5pm-6:15pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Friday_x0020_Available_x0020_7pm-9_x003A_40pm" msprop:Generator_ColumnVarNameInTable="_columnFriday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInRow="_Friday_Available_7pm_9_40pm" msprop:Generator_ColumnPropNameInTable="_Friday_Available_7pm_9_40pmColumn" msprop:Generator_UserColumnName="Friday Available 7pm-9:40pm" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.accdb
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.exe.config
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.exe
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.pdb
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.xml
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.vbprojResolveAssemblyReference.cache
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS_Scheduling_System.Form1.resources
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS_Scheduling_System.Resources.resources
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.vbproj.GenerateResource.Cache
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.exe
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.xml
+c:\users\chouli1\documents\visual studio 2017\Projects\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.pdb
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.accdb
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.exe.config
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.exe
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.pdb
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\bin\Debug\CIS Scheduling System.xml
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.vbprojResolveAssemblyReference.cache
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS_Scheduling_System.Form1.resources
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS_Scheduling_System.Resources.resources
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.vbproj.GenerateResource.Cache
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.exe
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.xml
+C:\Users\chouli1\Downloads\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS475-Scheduling-System-Patches94-SchedulingSystem-V0.1\CIS Scheduling System\CIS Scheduling System\obj\Debug\CIS Scheduling System.pdb

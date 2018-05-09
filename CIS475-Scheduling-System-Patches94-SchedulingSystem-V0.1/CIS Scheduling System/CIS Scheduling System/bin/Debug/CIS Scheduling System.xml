@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CIS Scheduling System
+</name>
+</assembly>
+<members>
+<member name="T:CIS_Scheduling_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CIS_Scheduling_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CIS_Scheduling_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_Needed_for_SemesterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_TaughtDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Days_and_hoursDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_Needed_for_SemesterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_TaughtRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Days_and_hoursRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_Needed_for_SemesterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Classes_TaughtRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSet.Days_and_hoursRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.Classes_Needed_for_SemesterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.Classes_TaughtTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.Days_and_hoursTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CIS_Scheduling_System.CIS_Scheduling_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CIS_Scheduling_System.CIS_Scheduling_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CIS_Scheduling_System.CIS_Scheduling_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.UpdateAll(CIS_Scheduling_System.CIS_Scheduling_SystemDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CIS_Scheduling_System.CIS_Scheduling_SystemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
